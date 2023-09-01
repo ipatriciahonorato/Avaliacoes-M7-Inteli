@@ -1,16 +1,7 @@
-# Avaliacoes-M7-Inteli
-Avaliações do Módulo 7
+# Avaliação 1 M7
 
-Para executar o backend:
+Esse projeto tem um arquivo docker para o frontend e backend e um arquivo docker-compose.yml que contém toda a estrutura do projeto.
 
-```bash
-python main.py
-```
 
-Para executar o frontend:
 
-```bash
-node server.js
-```
 
-| ***IMPORTANTE:*** Utilizar dentro do contexto do container.
