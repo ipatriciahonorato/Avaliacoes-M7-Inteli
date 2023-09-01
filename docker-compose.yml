@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+
+  frontend:
+    image: patriciahonorato/front-p1
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+
+  backend:
+    image: patriciahonorato/db-p1
+    ports:
+      - 8000:8000
+    container_name: banco-db-p1
